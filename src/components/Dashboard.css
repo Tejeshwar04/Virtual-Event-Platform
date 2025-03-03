@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dashboard-container {
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .dashboard-navbar {
+    background: #003366;
+    padding: 10px 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dashboard-navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .dashboard-navbar ul li {
+    display: inline;
+  }
+  
+  .dashboard-navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: 0.3s;
+  }
+  
+  .dashboard-navbar ul li a:hover {
+    background: #1a75ff;
+    border-radius: 5px;
+  }
+  
+  .dashboard-logo {
+    width: 120px;
+    border-radius: 10px;
+  }
+  
+  .dashboard-content {
+    padding: 30px;
+    background: #e6f2ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin: 20px;
+  }
+  
+  .dashboard-content h1 {
+    color: #003366;
+    font-size: 2.5em;
+  }
+  
+  .dashboard-content p {
+    color: #666;
+    font-size: 1.2em;
+  }
+  
+  .dashboard-buttons {
+    margin: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 10px;
+    font-size: 1.1em;
+    transition: background 0.3s;
+  }
+  
+  .add-event-btn {
+    background: #28a745;
+  }
+  
+  .add-event-btn:hover {
+    background: #218838;
+  }
+  
+  .view-event-btn {
+    background: #007bff;
+  }
+  
+  .view-event-btn:hover {
+    background: #0056b3;
+  }
+  
+  .dashboard-quotes {
+    background: #f0f8ff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  
+  .dashboard-quotes h2 {
+    color: #333;
+    font-size: 1.8em;
+  }
+  
+  .dashboard-quotes p {
+    font-style: italic;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .dashboard-footer {
+    background: #003366;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 0.9em;
+  }
+  

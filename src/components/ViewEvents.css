@@ -1,0 +1,31 @@
+.view-events-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .view-events-container h2, 
+  .view-events-container h3 {
+    text-align: center;
+  }
+  
+  .view-events-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .view-events-container ul li {
+    background: #f4f4f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .view-events-container ul li h4 {
+    margin: 0;
+    color: #333;
+  }
+  

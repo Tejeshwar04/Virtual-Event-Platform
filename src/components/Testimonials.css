@@ -1,0 +1,43 @@
+.testimonial-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.testimonial-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 300px;
+  flex: 1;
+  margin: 10px;
+}
+
+.quote {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-weight: bold;
+  color: #333;
+}
+
+.position {
+  color: #777;
+}
